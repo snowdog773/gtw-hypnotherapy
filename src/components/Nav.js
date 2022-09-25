@@ -1,30 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Nav = () => {
+const Nav = (props) => {
   return (
     <>
-      <Link to="/">
-        <div className="link">Home</div>
+      <Link to="/" className="link" onClick={() => props.closeMenu()}>
+        Home
       </Link>
-      <Link to="/about">
-        <div className="link">About Me</div>
+      <Link to="/about" className="link" onClick={() => props.closeMenu()}>
+        About Me
       </Link>
-      <Link to="whatIs">
-        <div className="link">What Is Hypnotherapy?</div>
+      <Link to="whatIs" className="link" onClick={() => props.closeMenu()}>
+        What Is Hypnotherapy?
       </Link>
-      <Link to="sessions">
-        <div className="link">Sessions & Prices</div>
+      <Link to="sessions" className="link" onClick={() => props.closeMenu()}>
+        Sessions & Prices
       </Link>
-      <Link to="classes">
-        <div className="link">Classes</div>
+      <Link to="classes" className="link" onClick={() => props.closeMenu()}>
+        Classes
       </Link>
-      <Link to="faq">
-        <div className="link">FAQ</div>
+      <Link to="faq" className="link" onClick={() => props.closeMenu()}>
+        FAQ
       </Link>
 
-      <Link to="contact">
-        <div className="link">Get In Touch</div>
+      <Link to="contact" className="link" onClick={() => props.closeMenu()}>
+        Get In Touch
       </Link>
     </>
   );

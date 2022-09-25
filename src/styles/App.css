@@ -60,13 +60,15 @@ nav.dropDown {
   width: 100%;
 }
 
-nav.dropDown div.link {
+nav.dropDown .link {
   display: block;
   margin: 0 auto;
   text-align: center;
   color: var(--corn);
   font-weight: bold;
   text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px;
 }
 
 img.topLogo {

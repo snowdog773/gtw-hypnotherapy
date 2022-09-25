@@ -2,7 +2,7 @@
   div.outerGutters {
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0 0 40px #000;
+    box-shadow: 0 0 40px #ccc;
     min-height: 100vh;
   }
 
@@ -20,18 +20,19 @@
     max-width: 1000px;
   }
 
-  nav.topNav div.link {
+  nav.topNav .link {
     display: block;
     margin: 20px auto;
     text-align: center;
     color: var(--corn);
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 0.6rem;
     transition: 0.5s;
     padding: 5px 20px;
   }
-  nav.topNav div.link:hover {
+  nav.topNav .link:hover {
     background-color: var(--corn);
     color: #fff;
     transition: 0.5s;

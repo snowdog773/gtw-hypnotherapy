@@ -9,6 +9,10 @@ const Header = () => {
     showMenu ? updateShowMenu(false) : updateShowMenu(true);
   };
 
+  const closeMenu = () => {
+    showMenu && updateShowMenu(false);
+  };
+
   return (
     <>
       <header>
@@ -28,11 +32,11 @@ const Header = () => {
       </header>
       {showMenu && (
         <nav className="dropDown">
-          <Nav />
+          <Nav closeMenu={closeMenu} />
         </nav>
       )}
       <nav className="topNav">
-        <Nav />
+        <Nav closeMenu={closeMenu} />
       </nav>
       {/* <div className="headerUnderline"></div> */}
     </>
