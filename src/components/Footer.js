@@ -1,10 +1,11 @@
 import React from "react";
 const Footer = () => {
   return (
-    <>
-      <p>The Footer</p>
-      <p>Copyright &copy; JP Design {new Date().getFullYear()}</p>
-    </>
+    <footer>
+      <p className="copyright">
+        Copyright &copy; JP Design {new Date().getFullYear()}
+      </p>
+    </footer>
   );
 };
 

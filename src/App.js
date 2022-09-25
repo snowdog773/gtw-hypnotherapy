@@ -1,17 +1,18 @@
 import React from "react";
 import "./styles/App.css";
 import "./styles/tablet.css";
-
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Body from "./components/Body";
-import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Body />
-      <Footer />
+      <div className="outerGutters">
+        <Header />
+        <Body />
+        <Footer />
+      </div>
     </>
   );
 };
