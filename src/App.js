@@ -11,8 +11,8 @@ const App = () => {
       <div className="outerGutters">
         <Header />
         <Body />
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };

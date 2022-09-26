@@ -26,6 +26,13 @@ const Nav = (props) => {
       <Link to="contact" className="link" onClick={() => props.closeMenu()}>
         Get In Touch
       </Link>
+      <Link
+        to="privacyPolicy"
+        className="link"
+        onClick={() => props.closeMenu()}
+      >
+        Privacy Policy
+      </Link>
     </>
   );
 };

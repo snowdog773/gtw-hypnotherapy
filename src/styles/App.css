@@ -91,3 +91,9 @@ footer {
 p.copyright {
   text-align: center;
 }
+
+div.priceList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
