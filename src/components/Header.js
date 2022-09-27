@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import hamburger from "../assets/simple_hamburger.svg";
+// import hamburger from "../assets/simple_hamburger.svg";
 import logoMain from "../assets/GTWLogoMain.jpg";
 import Nav from "./Nav";
 const Header = () => {

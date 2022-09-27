@@ -83,11 +83,6 @@ div.headerUnderline {
   background-color: var(--corn);
 }
 
-footer {
-  background-color: var(--corn);
-  color: #fff;
-}
-
 p.copyright {
   text-align: center;
 }
@@ -96,4 +91,12 @@ div.priceList {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+
+.pageBody {
+  width: 92%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
