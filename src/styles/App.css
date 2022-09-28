@@ -1,5 +1,5 @@
 :root {
-  --lazerLemon: #ffff6d;
+  --lazerLemon: #ffff6d60;
   --corn: #ddaa00;
 }
 
@@ -13,6 +13,10 @@ body {
   margin: 0;
   padding: 0;
   font-family: "montserrat";
+}
+
+div.outerGutters {
+  width: 100%;
 }
 
 *,
@@ -94,7 +98,8 @@ div.priceList {
 }
 
 .pageBody {
-  width: 92%;
+  display: block;
+  width: 100%;
   margin: 0 auto;
   font-size: 0.8rem;
   line-height: 1.5rem;

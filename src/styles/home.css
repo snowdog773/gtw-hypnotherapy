@@ -1,0 +1,62 @@
+:root {
+  --lazerLemon: #ffff6d;
+  --corn: #ddaa00;
+}
+
+.italicWrapper {
+  background-image: url(../assets/stairs2crop.jpg);
+
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  width: 100%;
+
+  border-top: 5px solid var(--corn);
+  /* border-radius: 10px; */
+  margin-top: 20px;
+  box-shadow: 0 0 5px #000;
+}
+
+.bigItalic {
+  background-color: #0005;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #fff;
+  margin: 60vh 0 0 0;
+  text-shadow: 1px 1px 2px #000;
+  padding: 10px;
+}
+
+.italicPhoto {
+  display: none;
+}
+
+.homeText {
+  margin: 10px;
+}
+
+@media (min-width: 700px) {
+  .italicPhoto {
+    display: block;
+    width: 40%;
+    float: left;
+    margin: 10px;
+  }
+
+  .italicWrapper {
+    border: none;
+    background-image: none;
+    box-shadow: none;
+  }
+
+  .bigItalic {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    background-color: #ddaa0080;
+    box-shadow: 0 0 55px #fff inset;
+  }
+}

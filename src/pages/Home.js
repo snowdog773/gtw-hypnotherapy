@@ -1,56 +1,62 @@
 import React from "react";
+import heroPhoto from "../assets/stairs2crop.jpg";
 const Home = () => {
   return (
     <>
-      <div className="pageBody">
-        <p>
-          ‘Solution Focused Hypnotherapy to help you overcome challenges, get
-          back control, & live the life you want to be living’
-        </p>
-        <p>
-          Is there something in your life that is holding you back? Making you
-          feel stuck, and preventing you from doing things you want to do?
-          Perhaps it’s anxiety, stress, lack of confidence, a fear or phobia, a
-          bad habit, issues with your weight, or maybe you know you want change
-          but just have no idea what this consists of? Maybe you just give so
-          much to everyone else that now you’re feeling that you need to make
-          time for yourself?
-        </p>
-        <p>
-          If you find yourself answering “yes” to any of these questions, then
-          welcome, you’ve come to the right place.{" "}
-        </p>
-        <p>
-          My name is Georgina, the founder of GTW Hypnotherapy. I am a clinical
-          Solution Focused Hypnotherapist and Psychotherapist, based in Crawley,
-          West Sussex. I use a mixture of talk therapy and hypnosis to help you
-          move away from problems of the past and get you focusing on a more
-          positive future.
-        </p>
-        <p>
-          {" "}
-          We can all be guilty of holding onto the past and using it as an
-          excuse for the way we live our lives today, but it doesn’t have to be
-          that way. Solution Focused Hypnotherapy is exactly what it says on the
-          tin. We don’t use the session time to talk about the problem, instead
-          we spend it focusing on the solutions and how you would like things to
-          be.
-        </p>
-        <p>
-          {" "}
-          My passion lies in helping my clients to get back control of their
-          lives. Working with them to break those unwanted negative patterns of
-          behaviour, discover a new sense of positivity and find happiness. In
-          some cases they want to gain more confidence and achieve those goals
-          they never thought possible.
-        </p>
-        <p>
-          {" "}
-          Sometimes the stresses and strains of daily life can make us lose who
-          we are. When working together you have my full support, encouragement
-          and determination to help you overcome obstacles and get the real YOU
-          back.
-        </p>
+      <article className="pageBody">
+        <img src={heroPhoto} alt="Georgina" className="italicPhoto"></img>
+        <div className="italicWrapper">
+          <p className="bigItalic">
+            ‘Solution Focused Hypnotherapy to help you overcome challenges, get
+            back control, & live the life you want to be living’
+          </p>
+        </div>
+        <div className="homeText">
+          <p>
+            Is there something in your life that is holding you back? Making you
+            feel stuck, and preventing you from doing things you want to do?
+            Perhaps it’s anxiety, stress, lack of confidence, a fear or phobia,
+            a bad habit, issues with your weight, or maybe you know you want
+            change but just have no idea what this consists of? Maybe you just
+            give so much to everyone else that now you’re feeling that you need
+            to make time for yourself?
+          </p>
+          <p>
+            If you find yourself answering “yes” to any of these questions, then
+            welcome, you’ve come to the right place.{" "}
+          </p>
+          <p>
+            My name is Georgina, the founder of GTW Hypnotherapy. I am a
+            clinical Solution Focused Hypnotherapist and Psychotherapist, based
+            in Crawley, West Sussex. I use a mixture of talk therapy and
+            hypnosis to help you move away from problems of the past and get you
+            focusing on a more positive future.
+          </p>
+          <p>
+            {" "}
+            We can all be guilty of holding onto the past and using it as an
+            excuse for the way we live our lives today, but it doesn’t have to
+            be that way. Solution Focused Hypnotherapy is exactly what it says
+            on the tin. We don’t use the session time to talk about the problem,
+            instead we spend it focusing on the solutions and how you would like
+            things to be.
+          </p>
+          <p>
+            {" "}
+            My passion lies in helping my clients to get back control of their
+            lives. Working with them to break those unwanted negative patterns
+            of behaviour, discover a new sense of positivity and find happiness.
+            In some cases they want to gain more confidence and achieve those
+            goals they never thought possible.
+          </p>
+          <p>
+            {" "}
+            Sometimes the stresses and strains of daily life can make us lose
+            who we are. When working together you have my full support,
+            encouragement and determination to help you overcome obstacles and
+            get the real YOU back.
+          </p>
+        </div>
         <p> “Nothing changes if nothing changes” </p>
         <h3>Areas of Support</h3>
         <ul>
@@ -106,7 +112,7 @@ const Home = () => {
           then please don’t hesitate to contact me and get booked in for your
           free, initial consultation.
         </p>
-      </div>
+      </article>
     </>
   );
 };
