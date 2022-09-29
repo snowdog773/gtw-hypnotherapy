@@ -1,6 +1,7 @@
 :root {
   --lazerLemon: #ffff6d;
   --corn: #ddaa00;
+  --paleCorn: #ddaa0080;
 }
 
 .italicWrapper {
@@ -11,10 +12,10 @@
   background-repeat: no-repeat;
 
   width: 100%;
-
+  max-width: 350px;
   border-top: 5px solid var(--corn);
   /* border-radius: 10px; */
-  margin-top: 20px;
+  margin: 20px auto 0;
   box-shadow: 0 0 5px #000;
 }
 
@@ -25,7 +26,7 @@
   line-height: 1rem;
   text-align: center;
   color: #fff;
-  margin: 60vh 0 0 0;
+  margin: 250px 0 0 0;
   text-shadow: 1px 1px 2px #000;
   padding: 10px;
 }
@@ -35,21 +36,75 @@
 }
 
 .homeText {
-  margin: 10px;
+  margin: 40px;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.fullWidth {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1rem;
+  color: var(--corn);
+
+  padding: 80px 10px;
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  margin: 0;
+  color: #fff;
+}
+.areas {
+  background-color: var(--paleCorn);
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+}
+
+.flexSupport {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.flexSupport li {
+  list-style: none;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding-left: 30px;
+  background-color: #ffff6d40;
+  font-weight: 600;
+  color: #333333;
+}
+
+.flexSupport li:nth-child(2n) {
+  background-color: #ffff6d60;
 }
 
 @media (min-width: 700px) {
   .italicPhoto {
     display: block;
-    width: 40%;
+    width: 35%;
     float: left;
-    margin: 10px;
+    margin: 10px 40px 20px 10px;
+    box-shadow: 0 0 10px #444;
   }
 
   .italicWrapper {
     border: none;
     background-image: none;
     box-shadow: none;
+    max-width: none;
   }
 
   .bigItalic {
@@ -58,5 +113,33 @@
     line-height: 1.5rem;
     background-color: #ddaa0080;
     box-shadow: 0 0 55px #fff inset;
+  }
+
+  .fullWidth {
+    font-size: 1.4rem;
+  }
+
+  .areas {
+    flex-direction: row;
+  }
+
+  .areasPicture {
+    background-image: url(../assets/notes.jpg);
+    background-position: top;
+    background-size: cover;
+    max-width: 300px;
+  }
+  .areasPictureSubLayer {
+    background-color: #00000080;
+    width: 100%;
+    height: 100%;
+  }
+  .areasPicture h3 {
+    font-size: 2.5rem;
+    padding: 100px 20px 0;
+    line-height: 5rem;
+    font-family: montserrat;
+
+    letter-spacing: 0.2rem;
   }
 }

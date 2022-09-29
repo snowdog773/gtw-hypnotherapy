@@ -57,55 +57,69 @@ const Home = () => {
             get the real YOU back.
           </p>
         </div>
-        <p> “Nothing changes if nothing changes” </p>
-        <h3>Areas of Support</h3>
-        <ul>
-          {" "}
-          <li>Anxiety </li>
-          <li> Depression </li>
-          <li> Stress </li>
-          <li> Confidence, self-esteem & self-belief </li>
-          <li> OCD </li>
-          <li> Phobias and fears </li>
-          <li> Weight management </li>
-          <li>Insomnia and poor sleep </li>
-          <li>Bad habits, such as nail biting </li>
-          <li>
-            Performance anxiety (e.g sports, public speaking, academic/exams){" "}
-          </li>
-          <li> Food anxiety </li>
-          <li>Alcohol addiction </li>
-          <li>Smoking/Vaping addiction </li>
-        </ul>
+
+        <p className="fullWidth"> “Nothing changes if nothing changes” </p>
+        <div className="areas">
+          <div className="areasPicture">
+            <div className="areasPictureSubLayer">
+              <h3>Areas of Support</h3>
+            </div>
+          </div>
+          <ul className="flexSupport">
+            {" "}
+            <li>Anxiety </li>
+            <li> Depression </li>
+            <li> Stress </li>
+            <li> Confidence, self-esteem & self-belief </li>
+            <li> OCD </li>
+            <li> Phobias and fears </li>
+            <li> Weight management </li>
+            <li>Insomnia and poor sleep </li>
+            <li>Bad habits, such as nail biting </li>
+            <li>
+              Performance anxiety (e.g sports, public speaking, academic/exams){" "}
+            </li>
+            <li> Food anxiety </li>
+            <li>Alcohol addiction </li>
+            <li>Smoking/Vaping addiction </li>
+          </ul>
+        </div>
         <p>
           {" "}
           Anxiety can display itself in a range of ways, so if you don’t spot
           your symptom(s) on this list then please don’t hesitate to get in
           touch as it is likely I may still be able to help.
         </p>
-        <h3> Outcomes clients can expect to experience</h3>
-        <ul>
-          <li>Boosted confidence </li>
-          <li> Feeling more in control of thoughts and emotions </li>
-          <li>Feeling calmer </li>
-          <li> Feeling happier and more positive </li>
-          <li> Sleeping better </li>
-          <li>Feeling more motivated </li>
-          <li> Getting more done </li>
-          <li> Achieving personal goals and aims </li>
-          <li> Improved relationships </li>
-          <li> More positive atmosphere at home </li>
-          <li>Improved physical health including healthy weight loss </li>
-          <li> Overcoming anxiety related health issues such as IBS </li>
-          <li> Living life without their previous fear or phobia </li>
-          <li> Quit smoking/vaping </li>
-          <li> Reduce alcohol intake</li>
-        </ul>
+        <div className="outcomes">
+          <ul>
+            <li>Boosted confidence </li>
+            <li> Feeling more in control of thoughts and emotions </li>
+            <li>Feeling calmer </li>
+            <li> Feeling happier and more positive </li>
+            <li> Sleeping better </li>
+            <li>Feeling more motivated </li>
+            <li> Getting more done </li>
+            <li> Achieving personal goals and aims </li>
+            <li> Improved relationships </li>
+            <li> More positive atmosphere at home </li>
+            <li>Improved physical health including healthy weight loss </li>
+            <li> Overcoming anxiety related health issues such as IBS </li>
+            <li> Living life without their previous fear or phobia </li>
+            <li> Quit smoking/vaping </li>
+            <li> Reduce alcohol intake</li>
+          </ul>
+          <div className="outcomesPicture">
+            <div className="outcomesPictureSubLayer">
+              <h3> Outcomes clients can expect to experience</h3>
+            </div>
+          </div>
+        </div>
         <p>
           This list is not exhaustive, and I am amazed every day in my therapy
           room at the other incredible changes my clients make to their lives
           through the use of Solution Focused Hypnotherapy.
         </p>
+
         <p>
           {" "}
           If you would like to experience some of these outcomes for yourself
