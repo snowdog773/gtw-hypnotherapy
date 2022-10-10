@@ -36,10 +36,15 @@
 }
 
 .homeText {
-  margin: 40px;
+  margin: 40px 40px 0 40px;
   text-align: justify;
   font-size: 1rem;
   line-height: 1.8rem;
+}
+
+.homeText p.lastParagraph {
+  margin-bottom: 0;
+  padding-bottom: 10px;
 }
 
 .fullWidth {
@@ -56,12 +61,13 @@
   margin: 0;
 }
 
-h3 {
+.areas h3,
+.areas2 h3 {
   text-align: center;
   margin: 0;
-  color: #fff;
 }
-.areas {
+.areas,
+.areas2 {
   background-color: var(--paleCorn);
   display: flex;
   flex-direction: column;
@@ -74,14 +80,14 @@ h3 {
   justify-content: center;
   align-items: center;
   padding: 0;
+  margin: 0;
 }
 
-.flexSupport li {
-  list-style: none;
+ul.flexSupport li {
   width: 100%;
   display: block;
   margin: auto;
-  padding-left: 30px;
+  padding: 0 5px;
   background-color: #ffff6d40;
   font-weight: 600;
   color: #333333;
@@ -90,6 +96,16 @@ h3 {
 .flexSupport li:nth-child(2n) {
   background-color: #ffff6d60;
 }
+
+ul.flexSupport li.listEnd {
+  font-style: italic;
+
+  text-align: center;
+  padding: 5px;
+  margin: 0;
+}
+
+/* ***************************************************************************************88 */
 
 @media (min-width: 700px) {
   .italicPhoto {
@@ -121,6 +137,16 @@ h3 {
 
   .areas {
     flex-direction: row;
+    width: 90%;
+    margin: 100px auto;
+    box-shadow: 0 0 50px #444;
+  }
+
+  .areas2 {
+    flex-direction: row-reverse;
+    width: 90%;
+    margin: 100px auto;
+    box-shadow: 0 0 50px #444;
   }
 
   .areasPicture {
@@ -129,6 +155,14 @@ h3 {
     background-size: cover;
     max-width: 300px;
   }
+
+  .areasPicture2 {
+    background-image: url(../assets/desk.jpg);
+    background-position: top;
+    background-size: cover;
+    max-width: 300px;
+  }
+
   .areasPictureSubLayer {
     background-color: #00000080;
     width: 100%;
@@ -139,7 +173,29 @@ h3 {
     padding: 100px 20px 0;
     line-height: 5rem;
     font-family: montserrat;
+    color: #fff;
+    letter-spacing: 0.2rem;
+  }
+
+  .areasPicture2 h3 {
+    font-size: 2.5rem;
+    padding: 50px 20px 0;
+    line-height: 5rem;
+    font-family: montserrat;
+    color: #fff;
 
     letter-spacing: 0.2rem;
   }
+
+  ul.flexSupport {
+    margin: 0;
+  }
+
+  ul.flexSupport li {
+    padding-left: 30px;
+  }
+
+  /* h3.benefitsHeader {
+    font-size: 2rem;
+  } */
 }

@@ -82,16 +82,22 @@ const Home = () => {
             <li> Food anxiety </li>
             <li>Alcohol addiction </li>
             <li>Smoking/Vaping addiction </li>
+            <li className="listEnd">
+              {" "}
+              Anxiety can display itself in a range of ways, so if you don’t
+              spot your symptom(s) on this list then please don’t hesitate to
+              get in touch as it is likely I may still be able to help.
+            </li>
           </ul>
         </div>
-        <p>
-          {" "}
-          Anxiety can display itself in a range of ways, so if you don’t spot
-          your symptom(s) on this list then please don’t hesitate to get in
-          touch as it is likely I may still be able to help.
-        </p>
-        <div className="outcomes">
-          <ul>
+
+        <div className="areas2">
+          <div className="areasPicture2">
+            <div className="areasPictureSubLayer">
+              <h3 className="benefitsHeader">Benefits of Treatment</h3>
+            </div>
+          </div>
+          <ul className="flexSupport">
             <li>Boosted confidence </li>
             <li> Feeling more in control of thoughts and emotions </li>
             <li>Feeling calmer </li>
@@ -108,24 +114,21 @@ const Home = () => {
             <li> Quit smoking/vaping </li>
             <li> Reduce alcohol intake</li>
           </ul>
-          <div className="outcomesPicture">
-            <div className="outcomesPictureSubLayer">
-              <h3> Outcomes clients can expect to experience</h3>
-            </div>
-          </div>
         </div>
-        <p>
-          This list is not exhaustive, and I am amazed every day in my therapy
-          room at the other incredible changes my clients make to their lives
-          through the use of Solution Focused Hypnotherapy.
-        </p>
+        <div className="homeText">
+          <p>
+            This list is not exhaustive, and I am amazed every day in my therapy
+            room at the other incredible changes my clients make to their lives
+            through the use of Solution Focused Hypnotherapy.
+          </p>
 
-        <p>
-          {" "}
-          If you would like to experience some of these outcomes for yourself
-          then please don’t hesitate to contact me and get booked in for your
-          free, initial consultation.
-        </p>
+          <p className="lastParagraph">
+            {" "}
+            If you would like to experience some of these outcomes for yourself
+            then please don’t hesitate to contact me and get booked in for your
+            free, initial consultation.
+          </p>
+        </div>
       </article>
     </>
   );
