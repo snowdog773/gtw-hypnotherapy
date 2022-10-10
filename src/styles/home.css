@@ -199,3 +199,10 @@ ul.flexSupport li.listEnd {
     font-size: 2rem;
   } */
 }
+
+/* for privacy policy address list */
+
+ul.noDecoration {
+  list-style: none;
+  padding-left: 20px;
+}
