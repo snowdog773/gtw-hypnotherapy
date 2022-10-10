@@ -173,8 +173,9 @@ ul.flexSupport li.listEnd {
     padding: 100px 20px 0;
     line-height: 5rem;
     font-family: montserrat;
+    /* text-transform: uppercase; */
     color: #fff;
-    letter-spacing: 0.2rem;
+    letter-spacing: 0rem;
   }
 
   .areasPicture2 h3 {
@@ -184,7 +185,7 @@ ul.flexSupport li.listEnd {
     font-family: montserrat;
     color: #fff;
 
-    letter-spacing: 0.2rem;
+    letter-spacing: 0rem;
   }
 
   ul.flexSupport {
@@ -205,4 +206,28 @@ ul.flexSupport li.listEnd {
 ul.noDecoration {
   list-style: none;
   padding-left: 20px;
+}
+
+/* for quote at bottom of ABOUT ME page */
+
+.fullWidthQuote {
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  color: var(--corn);
+
+  padding: 10px;
+  margin: 0;
+}
+
+.henryFord {
+  text-align: center;
+
+  padding-bottom: 30px;
+  font-size: 00.8rem;
+  margin: 0;
 }

@@ -3,8 +3,8 @@ const PrivacyPolicy = () => {
   return (
     <>
       <article className="pageBody">
+        <h2>Privacy Policy</h2>
         <div className="homeText">
-          <h2>Privacy Policy</h2>
           <h3> Privacy Notice for GTW Hypnotherapy </h3>
           <p>
             The following information explains how I collect, use and protect
