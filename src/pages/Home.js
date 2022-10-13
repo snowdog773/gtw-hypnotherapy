@@ -1,4 +1,5 @@
 import React from "react";
+import Testimonial from "../components/Testimonial";
 import heroPhoto from "../assets/stairs2crop.jpg";
 const Home = () => {
   return (
@@ -128,6 +129,7 @@ const Home = () => {
             then please don’t hesitate to contact me and get booked in for your
             free, initial consultation.
           </p>
+          <Testimonial />
         </div>
       </article>
     </>

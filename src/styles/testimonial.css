@@ -1,0 +1,29 @@
+.testimonialBox {
+  width: 100%;
+  background-color: #ddaa00;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: center;
+  min-height: 300px;
+  padding: 20px;
+  box-shadow: 0 0 30px #333;
+  text-shadow: 1px 1px 2px #555;
+
+  border-radius: 5px;
+}
+
+.testimonialBox h3 {
+  font-style: normal;
+}
+
+.fadeOn {
+  opacity: 1;
+  transition: 1s;
+}
+
+.fadeOff {
+  opacity: 0;
+  transition: 1s;
+}
