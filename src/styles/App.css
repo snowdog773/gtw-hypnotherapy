@@ -74,8 +74,9 @@ p.menuIcon {
 nav.dropDown {
   display: block;
   position: absolute;
-  background-color: #fff9;
+  background-color: #ffffff;
   width: 100%;
+  height: 80vh;
 }
 
 nav.dropDown .link {
