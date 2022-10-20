@@ -88,13 +88,13 @@ ul.flexSupport li {
   display: block;
   margin: auto;
   padding: 0 5px;
-  background-color: #ffff6d40;
+  background-color: #ddaa0040;
   font-weight: 600;
   color: #333333;
 }
 
 .flexSupport li:nth-child(2n) {
-  background-color: #ffff6d60;
+  background-color: #ddaa0060;
 }
 
 ul.flexSupport li.listEnd {
@@ -139,14 +139,14 @@ ul.flexSupport li.listEnd {
     flex-direction: row;
     width: 90%;
     margin: 100px auto;
-    box-shadow: 0 0 50px #444;
+    box-shadow: 0 0 10px #444;
   }
 
   .areas2 {
     flex-direction: row-reverse;
     width: 90%;
     margin: 100px auto;
-    box-shadow: 0 0 50px #444;
+    box-shadow: 0 0 10px #444;
   }
 
   .areasPicture {

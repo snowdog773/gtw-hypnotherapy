@@ -6,6 +6,10 @@
     min-height: 100vh;
   }
 
+  h3 {
+    font-size: 1rem;
+  }
+
   p.menuIcon {
     display: none;
   }
@@ -37,5 +41,18 @@
     color: #fff;
     transition: 0.5s;
     cursor: pointer;
+  }
+
+  ul.priceList {
+    grid-template-columns: 1fr 1fr;
+    font-size: 0.8rem;
+  }
+
+  ul.priceList li {
+    background-color: #ddaa0040;
+  }
+
+  ul.priceList li.wide1 {
+    background-color: #ddaa0060;
   }
 }

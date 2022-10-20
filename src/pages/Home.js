@@ -114,24 +114,18 @@ const Home = () => {
             <li> Living life without their previous fear or phobia </li>
             <li> Quit smoking/vaping </li>
             <li> Reduce alcohol intake</li>
+            <li className="listEnd">
+              This list is not exhaustive, and I am amazed every day in my
+              therapy room at the other incredible changes my clients make to
+              their lives through the use of Solution Focused Hypnotherapy. If
+              you would like to experience some of these outcomes for yourself
+              then please don’t hesitate to contact me and get booked in for
+              your free, initial consultation.
+            </li>
           </ul>
         </div>
-        <div className="homeText">
-          <p>
-            This list is not exhaustive, and I am amazed every day in my therapy
-            room at the other incredible changes my clients make to their lives
-            through the use of Solution Focused Hypnotherapy.
-          </p>
-
-          <p className="lastParagraph">
-            {" "}
-            If you would like to experience some of these outcomes for yourself
-            then please don’t hesitate to contact me and get booked in for your
-            free, initial consultation.
-          </p>
-          <Testimonial />
-        </div>
-      </article>
+      </article>{" "}
+      <Testimonial />
     </>
   );
 };

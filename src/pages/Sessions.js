@@ -73,19 +73,24 @@ const Sessions = () => {
             worked successfully with clients from all around the globe. All that
             I ask is that you have a good internet connection and can be in a
             quiet, comfortable room where you won’t be disturbed
-          </p>
-          <div className="priceList">
-            <p>Initial Consultation (45 mins) </p>
-            <p> FREE, plus a copy of my relaxation audio </p>
-            <p> Individual session (1 hr) </p>
-            <p> £60 </p>
-            <p> Package of 6 sessions </p>
-            <p> £300</p>
-
-            <p> Smoking/Vaping cessation session (2 hrs) </p>
-            <p> £150</p>
-          </div>
+          </p>{" "}
+          <h3>Prices</h3>
         </div>
+
+        <ul className="priceList">
+          <li className="wide1">Initial Consultation (45 mins) </li>
+          <li className="wide1">
+            {" "}
+            FREE plus a free copy of my relaxation audio
+          </li>
+          <li className="wide2"> Individual session (1 hr) </li>
+          <li className="wide2"> £60 </li>
+          <li className="wide1"> Package of 6 sessions </li>
+          <li className="wide1"> £300</li>
+
+          <li className="wide2"> Smoking/Vaping cessation session (2 hrs) </li>
+          <li className="wide2"> £150</li>
+        </ul>
       </article>
     </>
   );

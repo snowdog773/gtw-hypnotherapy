@@ -7,7 +7,7 @@ const Testimonial = ({ in: inProp }) => {
     "Georgina is such a warm & approachable person & great at listening.  My mindset needed some guidance & I felt reassured to be able to talk openly & also relax in the environment.  The transformation in my thought process has been staggering & I would highly recommend GTW to anyone going through challenges in life.  Georgina is highly professional & passionate about helping others.",
     "I went to see Georgina for support with my anxiety & confidence.  They had both deteriorated due to not feeling like I was good enough…my looks, the way I dress & feeling like people were always judging me.  I secluded myself away from going out & being sociable.  Since having regular sessions with Georgina I owe her the biggest thank you! I had tried to battle my mental health for a couple of years & this weekend was the first time in those two years that I went away for the weekend! I’m so proud that I conquered my fears & I felt free for the first time in a long time.  Georgina, thank you so much for supporting & helping me through a really tough time.",
     "Georgina made me feel relaxed & comfortable from our first introductory meeting.  Being new to any therapy, it was important for me to understand the process & feel confident in the person I was working with.  Georgina was able to explain quite simply how hypnotherapy can work.  She listened without judgement & has given me a toolkit that I can use with myself & those around me to ensure that I am feeling confident & positive in any situation. And I can now go to the shop by myself…hurrah!",
-    "The hypnotherapy treatment I have had from Georgina has been life changing.  The benefits have extended beyond helping me achieve some significant goals ina  relatively short space of time.  Overall my wellbeing & mental health has substantially improved.  Georgina has been excellent & her calm, gentle, friendly & professional approach is very easy to work with.  She was also able to accommodate my difficult schedule & be flexible about session times.",
+    "The hypnotherapy treatment I have had from Georgina has been life changing.  The benefits have extended beyond helping me achieve some significant goals in a  relatively short space of time.  Overall my wellbeing & mental health has substantially improved.  Georgina has been excellent & her calm, gentle, friendly & professional approach is very easy to work with.  She was also able to accommodate my difficult schedule & be flexible about session times.",
     "I got in contact with Georgina for some help with my anxiety & stress.  I felt I needed some tools to help me cope when under pressure & feeling overwhelmed.  Even from the first session I felt very at ease & Georgina explained what the sessions would entail & how many she thought I may need.  I found this solution focused based therapy really positive & it really helped me to change my mindset & my perception of things.  I always looked forward to my sessions & within 5-6 sessions I had already felt a dramatic difference in my behaviour & ability to cope when feeling overwhelmed.  Thank you Georgina!",
   ];
   const [number, setNumber] = useState(0);
@@ -28,7 +28,7 @@ const Testimonial = ({ in: inProp }) => {
         }, 1000);
       },
 
-      20000
+      15000
     );
   }, [number]);
 
