@@ -4,7 +4,7 @@ import heroPhoto from "../assets/stairs2crop.jpg";
 const Home = () => {
   return (
     <>
-      <article className="pageBody">
+      <article className="pageBodyHome">
         <img src={heroPhoto} alt="Georgina" className="italicPhoto"></img>
         <div className="italicWrapper">
           <p className="bigItalic">

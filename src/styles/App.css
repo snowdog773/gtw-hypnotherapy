@@ -147,10 +147,38 @@ ul.priceList {
   line-height: 1.5rem;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
+  padding-bottom: 100px;
+}
+
+.pageBodyHome {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
   /* padding-bottom: 50px; */
 }
 
 .noJustify {
   text-align: left;
   font-size: 0.9rem;
+}
+
+img.lAlign {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+
+  box-shadow: 0 0 5px #666;
+}
+
+@media (min-width: 700px) {
+  img.lAlign {
+    width: 300px;
+    float: left;
+    margin: 10px;
+    box-shadow: 0 0 5px #666;
+  }
 }

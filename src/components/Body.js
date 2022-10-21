@@ -12,18 +12,16 @@ import PrivacyPolicy from "../pages/PrivacyPolicy";
 const Body = () => {
   return (
     <>
-      <div className="pageBody">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/sessions" element={<Sessions />} />
-          <Route path="/classes" element={<Classes />} />
-          <Route path="/whatIs" element={<WhatIs />} />
-          <Route path="/faq" element={<Faq />} />
-          <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/sessions" element={<Sessions />} />
+        <Route path="/classes" element={<Classes />} />
+        <Route path="/whatIs" element={<WhatIs />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+      </Routes>
     </>
   );
 };

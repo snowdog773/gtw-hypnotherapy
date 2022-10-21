@@ -5,11 +5,17 @@ const About = () => {
       <article className="pageBody">
         <h2>About Me</h2>
         <div className="homeText">
+          <img
+            className="lAlign"
+            src={require("../assets/tea2.jpg")}
+            alt="Georgina with a cup of tea"
+          ></img>
           <p>
             I trained at the Clifton Practice for Hypnotherapy Training and
             qualified with both a Diploma in Solution Focused Hypnotherapy
             (DSFH) and the prestigious Hypnotherapy Practitioner Diploma (HPD).
           </p>
+
           <p>
             My work in this field of therapy comes after, and also alongside, a
             career as a professional singer and actress (bit of a change eh?!).

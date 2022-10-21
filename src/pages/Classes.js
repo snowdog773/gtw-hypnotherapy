@@ -2,9 +2,9 @@ import React from "react";
 const Classes = () => {
   return (
     <>
-      <h2>Relaxation and Well - Being Class</h2>
+      <article className="pageBody">
+        <h2>Relaxation and Well - Being Class</h2>
 
-      <article>
         <div className="homeText">
           <p>
             {" "}
