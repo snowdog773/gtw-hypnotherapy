@@ -60,12 +60,14 @@ const Home = () => {
         </div>
 
         <p className="fullWidth"> “Nothing changes if nothing changes” </p>
+
         <div className="areas">
           <div className="areasPicture">
             <div className="areasPictureSubLayer">
               <h3>Areas of Support</h3>
             </div>
           </div>
+
           <ul className="flexSupport">
             {" "}
             <li>Anxiety </li>
