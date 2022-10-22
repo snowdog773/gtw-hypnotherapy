@@ -6,6 +6,11 @@ const Classes = () => {
         <h2>Relaxation and Well - Being Class</h2>
 
         <div className="homeText">
+          <img
+            src={require("../assets/stairs.jpg")}
+            className="lAlign"
+            alt="Georgina"
+          ></img>
           <p>
             {" "}
             Take some time for yourself to lie back, give the conscious, active

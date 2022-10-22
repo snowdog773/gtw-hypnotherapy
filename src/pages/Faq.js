@@ -6,6 +6,11 @@ const Faq = () => {
       <article className="pageBody">
         <h2>FAQs</h2>
         <div className="homeText">
+          <img
+            src={require("../assets/desk.jpg")}
+            className="rAlign"
+            alt="Georgina working"
+          ></img>
           <h3> Will I still have control when I’m in hypnosis/trance?</h3>
           <p>
             {" "}
@@ -45,6 +50,11 @@ const Faq = () => {
             those changes rapidly and permanently so I can send you on your way
             to make the most of it!{" "}
           </p>
+          <img
+            src={require("../assets/notes.jpg")}
+            className="lAlign"
+            alt="Georgina working"
+          ></img>
           <h3>How quickly will I see results? </h3>
           <p>
             Solution Focused hypnotherapy is a ‘brief’ therapy, meaning that

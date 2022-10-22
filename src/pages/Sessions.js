@@ -6,6 +6,11 @@ const Sessions = () => {
         <h2>Sessions & Prices </h2>
         <div className="homeText">
           <h3>Free, Initial Consultation</h3>
+          <img
+            src={require("../assets/stairs2.jpg")}
+            className="rAlign"
+            alt="Georgina"
+          ></img>
           <p>
             Before we begin any treatment, I offer a free, initial consultation
             to all prospective clients. This consultation is an opportunity for
@@ -50,6 +55,11 @@ const Sessions = () => {
             rate for this package. (Please note some phobias require more
             sessions, this will be discussed fully in the initial consultation.)
           </p>{" "}
+          <img
+            src={require("../assets/laptop.jpg")}
+            className="lAlign"
+            alt="Georgina doing a Zoom consultation"
+          ></img>
           <h3>Smoking/Vaping Cessation</h3>
           <p>
             {" "}

@@ -9,6 +9,7 @@ const WhatIs = () => {
             What is Solution Focused Hypnotherapy & what does a session consist
             of?
           </h3>
+
           <p>
             Solution Focused Hypnotherapy (SFHT) is a complimentary therapy
             consisting of a combination of psychotherapy (talk therapy) and
@@ -20,6 +21,11 @@ const WhatIs = () => {
             have reached a point in the session where you are feeling more
             positive and forward-thinking then you will experience hypnosis.{" "}
           </p>
+          <img
+            src={require("../assets/stairs2.jpg")}
+            className="rAlign"
+            alt="Georgina sat on the stairs"
+          ></img>
           <p>
             {" "}
             Hypnosis or trance is a completely natural process that we go

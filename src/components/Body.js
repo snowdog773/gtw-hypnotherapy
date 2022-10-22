@@ -9,6 +9,8 @@ import WhatIs from "../pages/WhatIs";
 import Classes from "../pages/Classes";
 import Faq from "../pages/Faq";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
+import FormSuccess from "../pages/FormSuccess";
+import FormFail from "../pages/FormFail";
 const Body = () => {
   return (
     <>
@@ -21,6 +23,8 @@ const Body = () => {
         <Route path="/whatIs" element={<WhatIs />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="/formSuccess" element={<FormSuccess />} />
+        <Route path="/formFail" element={<FormFail />} />
       </Routes>
     </>
   );

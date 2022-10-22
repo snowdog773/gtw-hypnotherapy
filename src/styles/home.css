@@ -205,7 +205,7 @@ ul.flexSupport li.listEnd {
 
 ul.noDecoration {
   list-style: none;
-  padding-left: 20px;
+  padding-left: 0;
 }
 
 /* for quote at bottom of ABOUT ME page */
