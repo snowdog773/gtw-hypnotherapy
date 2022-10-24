@@ -62,7 +62,7 @@ const Testimonial = () => {
             wellbeing & mental health has substantially improved. Georgina has
             been excellent & her calm, gentle, friendly & professional approach
             is very easy to work with. She was also able to accommodate my
-            difficult schedule & be flexible about session times.”"
+            difficult schedule & be flexible about session times."
           </div>
           <div>
             "I got in contact with Georgina for some help with my anxiety &

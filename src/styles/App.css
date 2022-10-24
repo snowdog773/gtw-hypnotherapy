@@ -8,6 +8,11 @@
   src: url(../fonts/Montserrat-Regular.ttf);
 }
 
+@font-face {
+  font-family: montserratBold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
 body {
   box-sizing: border-box;
   margin: 0;
@@ -237,4 +242,16 @@ form.contactForm {
 
 h3.contactName {
   margin: 5px 0;
+}
+
+.socialLinks {
+  display: flex;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLinks img {
+  height: 30px;
+  margin: 25px;
 }

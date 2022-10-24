@@ -47,6 +47,25 @@
   padding-bottom: 10px;
 }
 
+.homeTextFaq {
+  margin: 40px 40px 0 40px;
+  text-align: justify;
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+
+.homeTextFaq h3 {
+  font-size: 1.05rem;
+  font-family: montserratBold;
+  color: #333;
+  margin-top: 50px;
+}
+
+.homeTextFaq p.lastParagraph {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
 .fullWidth {
   display: block;
   width: 100%;
@@ -64,14 +83,16 @@
 .areas h3,
 .areas2 h3 {
   text-align: center;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 .areas,
 .areas2 {
-  background-color: var(--paleCorn);
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   margin-top: 60px;
+  width: 100%;
+  margin-bottom: 100px;
 }
 
 .flexSupport {
@@ -137,16 +158,16 @@ ul.flexSupport li.listEnd {
 
   .areas {
     flex-direction: row;
-    width: 90%;
-    margin: 100px auto;
-    box-shadow: 0 0 10px #444;
+
+    margin: 100px auto 200px;
+    /* box-shadow: 0 0 10px #444; */
   }
 
   .areas2 {
     flex-direction: row-reverse;
-    width: 90%;
-    margin: 100px auto;
-    box-shadow: 0 0 10px #444;
+
+    margin: 100px auto 200px;
+    /* box-shadow: 0 0 10px #444; */
   }
 
   .areasPicture {

@@ -7,7 +7,7 @@ const Sessions = () => {
         <div className="homeText">
           <h3>Free, Initial Consultation</h3>
           <img
-            src={require("../assets/stairs2.jpg")}
+            src={require("../assets/tea2.jpg")}
             className="rAlign"
             alt="Georgina"
           ></img>

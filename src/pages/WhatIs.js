@@ -22,7 +22,7 @@ const WhatIs = () => {
             positive and forward-thinking then you will experience hypnosis.{" "}
           </p>
           <img
-            src={require("../assets/stairs2.jpg")}
+            src={require("../assets/stairs3.jpg")}
             className="rAlign"
             alt="Georgina sat on the stairs"
           ></img>

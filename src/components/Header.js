@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import hamburger from "../assets/simple_hamburger.svg";
+
 import logoMain from "../assets/GTWLogoMain.jpg";
 import Nav from "./Nav";
 const Header = () => {
@@ -17,12 +17,6 @@ const Header = () => {
     <>
       <header>
         <div className="header">
-          {/* <img
-            className="menuIcon"
-            src={hamburger}
-            alt="menu icon"
-            onClick={() => menuSwitch()}
-          ></img> */}
           <p className="menuIcon" onClick={() => menuSwitch()}>
             MENU
           </p>

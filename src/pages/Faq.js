@@ -5,7 +5,7 @@ const Faq = () => {
       {" "}
       <article className="pageBody">
         <h2>FAQs</h2>
-        <div className="homeText">
+        <div className="homeTextFaq">
           <img
             src={require("../assets/desk.jpg")}
             className="rAlign"

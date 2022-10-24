@@ -13,7 +13,7 @@ const Contact = () => {
             <input
               type="hidden"
               name="_redirect"
-              value="https://gtw-hypnotherapy.netlify.app/formSuccess"
+              value="http://www.gtw-hypnotherapy.co.uk/formSuccess"
             />
             <label htmlFor="name">Name:</label>
             <input type="name" id="name" name="name" required />
@@ -36,7 +36,8 @@ const Contact = () => {
           <h3 className="contactName">Georgina Taylor-Wyatt</h3>
           <h3 className="contactName"> DSFH, HPD, NCH (reg), AfSFH (reg)</h3>
           <ul className="noDecoration">
-            <li>GTW Hypnotherapy Crawley Business Centre</li>
+            <li>GTW Hypnotherapy </li>
+            <li>Crawley Business Centre</li>
             <li> Stephenson Way</li>
             <li> Three Bridges</li>
             <li>Crawley</li>

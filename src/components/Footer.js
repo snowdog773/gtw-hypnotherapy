@@ -1,5 +1,5 @@
 import React from "react";
-import Nav from "./Nav";
+import Socials from "./Socials";
 
 import afsfhLogo from "../assets/afsfh_logo.png";
 import cphtLogo from "../assets/cpht_logo.jpg";
@@ -22,9 +22,8 @@ const Footer = () => {
         <div className="footerRight">
           <img src={dbsLogo} alt="DBS logo"></img>
         </div>
-        <nav className="footerLinks">
-          <Nav />
-        </nav>
+
+        <Socials />
       </div>
       <p className="copyright">
         Copyright &copy; JP Design {new Date().getFullYear()}

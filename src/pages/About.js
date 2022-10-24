@@ -7,7 +7,7 @@ const About = () => {
         <div className="homeText">
           <img
             className="lAlign"
-            src={require("../assets/tea2.jpg")}
+            src={require("../assets/stairs.jpg")}
             alt="Georgina with a cup of tea"
           ></img>
           <p>

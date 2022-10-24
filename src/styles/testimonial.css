@@ -3,7 +3,7 @@
   /* background-color: #facf41; */
   color: #fff;
   /* margin-top: 50px; */
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-style: italic;
   text-align: center;
 
@@ -28,6 +28,6 @@
 
 @media (min-width: 700px) {
   .testimonialBox div {
-    padding: 20px;
+    padding: 5px 20px 15px;
   }
 }

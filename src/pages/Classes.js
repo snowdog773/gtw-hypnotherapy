@@ -7,9 +7,9 @@ const Classes = () => {
 
         <div className="homeText">
           <img
-            src={require("../assets/stairs.jpg")}
+            src={require("../assets/classflyer.png")}
             className="lAlign"
-            alt="Georgina"
+            alt="Class flyer"
           ></img>
           <p>
             {" "}
