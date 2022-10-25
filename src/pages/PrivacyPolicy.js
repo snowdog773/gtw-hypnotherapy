@@ -20,62 +20,56 @@ const PrivacyPolicy = () => {
             hypnotherapy service.
           </p>{" "}
           <h3>About the individuals whose data I collect</h3>{" "}
-          <p>
-            I collect data about individuals who:{" "}
-            <ul>
-              <li> Enquire about and/or attend hypnotherapy sessions </li>
-              <li>
-                Enquire about and/or attend my relaxation classes, workshops and
-                other occasional events
-              </li>
-            </ul>{" "}
-          </p>{" "}
+          <p>I collect data about individuals who: </p>
+          <ul>
+            <li> Enquire about and/or attend hypnotherapy sessions </li>
+            <li>
+              Enquire about and/or attend my relaxation classes, workshops and
+              other occasional events
+            </li>
+          </ul>{" "}
           <h3>What I do with personal data </h3>
-          <p>
-            The legal basis for processing your data is as follows:{" "}
-            <ul>
-              <li>
-                Contractual obligations in communicating therapy related
-                information eg booking appointments, recording progress.
-              </li>
-              <li>
-                Consent from individuals who participate in the CORP research
-                programme, which tracks therapeutic progress.
-              </li>
-              <li>
-                {" "}
-                Legitimate interest in communicating information about
-                relaxation classes, workshops, and other events.
-              </li>
-              <li>Legitimate interest for financial accounting purposes.</li>
-            </ul>
-          </p>{" "}
+          <p>The legal basis for processing your data is as follows: </p>
+          <ul>
+            <li>
+              Contractual obligations in communicating therapy related
+              information eg booking appointments, recording progress.
+            </li>
+            <li>
+              Consent from individuals who participate in the CORP research
+              programme, which tracks therapeutic progress.
+            </li>
+            <li>
+              {" "}
+              Legitimate interest in communicating information about relaxation
+              classes, workshops, and other events.
+            </li>
+            <li>Legitimate interest for financial accounting purposes.</li>
+          </ul>
           <h3>Storage of personal data</h3>
           <p> I hold data in both written and electric form. </p>
-          <p>
-            Written data collected:{" "}
-            <ul>
-              <li>
-                From individuals, if they enquire by telephone or text, in which
-                case, I hand-write contact details and brief notes in order to
-                make contact.
-              </li>
-              <li>
-                {" "}
-                From clients, during the Initial Consultation and subsequent
-                therapy sessions.
-              </li>
-              <li>
-                {" "}
-                Written data is stored securely in a locked filing cabinet in my
-                locked therapy room.
-              </li>{" "}
-              <li>
-                Relevant data is transferred to electronic format for the
-                purposes of recording attendance and bookkeeping.
-              </li>
-            </ul>
-          </p>{" "}
+          <p>Written data collected: </p>
+          <ul>
+            <li>
+              From individuals, if they enquire by telephone or text, in which
+              case, I hand-write contact details and brief notes in order to
+              make contact.
+            </li>
+            <li>
+              {" "}
+              From clients, during the Initial Consultation and subsequent
+              therapy sessions.
+            </li>
+            <li>
+              {" "}
+              Written data is stored securely in a locked filing cabinet in my
+              locked therapy room.
+            </li>{" "}
+            <li>
+              Relevant data is transferred to electronic format for the purposes
+              of recording attendance and bookkeeping.
+            </li>
+          </ul>
           <p>
             Electronic data is held in spreadsheets on a password-protected
             laptop.
@@ -124,32 +118,26 @@ const PrivacyPolicy = () => {
           <p>
             You have the following rights under the General Data Protection
             Regulations:{" "}
-            <ul>
-              <li> To request a copy of the information I hold about you </li>
-              <li>
-                {" "}
-                To update any of your personal information if it is inaccurate
-                or out of date{" "}
-              </li>
-              <li>
-                {" "}
-                To request that I delete the personal data I hold about you{" "}
-              </li>
-              <li>
-                {" "}
-                To restrict the way in which I process your personal data{" "}
-              </li>
-              <li>
-                {" "}
-                To request that I stop processing your data if you object to me
-                doing so{" "}
-              </li>
-              <li>
-                {" "}
-                To ask me to transfer your personal data to a third party
-              </li>
-            </ul>
           </p>
+          <ul>
+            <li> To request a copy of the information I hold about you </li>
+            <li>
+              {" "}
+              To update any of your personal information if it is inaccurate or
+              out of date{" "}
+            </li>
+            <li>
+              {" "}
+              To request that I delete the personal data I hold about you{" "}
+            </li>
+            <li> To restrict the way in which I process your personal data </li>
+            <li>
+              {" "}
+              To request that I stop processing your data if you object to me
+              doing so{" "}
+            </li>
+            <li> To ask me to transfer your personal data to a third party</li>
+          </ul>
           <h3>Data Retention</h3>
           <p>
             {" "}

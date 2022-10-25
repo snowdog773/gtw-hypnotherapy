@@ -237,7 +237,7 @@ ul.noDecoration {
   background-color: #fff;
   text-align: center;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1rem;
   color: var(--corn);
 
@@ -251,4 +251,40 @@ ul.noDecoration {
   padding-bottom: 30px;
   font-size: 00.8rem;
   margin: 0;
+}
+
+.contactLink {
+  display: block;
+  margin: 0 auto 100px;
+  background-color: #fff;
+
+  color: var(--corn);
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1rem;
+  padding: 20px;
+  /* box-shadow: 0 0 10px #555; */
+  /* border-radius: 10px; */
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.contactLinkButton {
+  display: block;
+  margin: 0 auto;
+  background-color: var(--corn);
+  color: #fff;
+  border-radius: 20px;
+  max-width: 200px;
+  padding: 10px 0;
+  font-family: montserrat;
+  font-style: normal;
+}
+
+.contactLinkButton:hover {
+  opacity: 0.8;
+}
+
+.contactLink a {
+  text-decoration: none;
 }

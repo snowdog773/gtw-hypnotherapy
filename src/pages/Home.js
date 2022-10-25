@@ -1,5 +1,6 @@
 import React from "react";
 import Testimonial from "../components/Testimonial";
+import ContactLink from "../components/ContactLink";
 import heroPhoto from "../assets/stairs2crop.jpg";
 const Home = () => {
   return (
@@ -127,6 +128,7 @@ const Home = () => {
           </ul>
         </div>
       </article>{" "}
+      <ContactLink />
       <Testimonial />
     </>
   );
