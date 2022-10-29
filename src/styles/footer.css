@@ -52,6 +52,11 @@ p.copyright {
   font-size: 0.6rem;
 }
 
+p.copyright a {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media (min-width: 665px) {
   nav.footerLinks {
     order: 1;

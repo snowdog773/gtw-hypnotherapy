@@ -2,6 +2,7 @@ import React from "react";
 import Testimonial from "../components/Testimonial";
 import ContactLink from "../components/ContactLink";
 import heroPhoto from "../assets/stairs2crop.jpg";
+import Youtube from "../components/Youtube";
 const Home = () => {
   return (
     <>
@@ -59,6 +60,7 @@ const Home = () => {
             get the real YOU back.
           </p>
         </div>
+        <Youtube />
 
         <p className="fullWidth"> “Nothing changes if nothing changes” </p>
 

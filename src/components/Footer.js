@@ -26,7 +26,13 @@ const Footer = () => {
         <Socials />
       </div>
       <p className="copyright">
-        Copyright &copy; JP Design {new Date().getFullYear()}
+        <a
+          href="https://jon.pitans.co.uk"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          Copyright &copy; JP Web Development {new Date().getFullYear()}
+        </a>
       </p>
     </footer>
   );

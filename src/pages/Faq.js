@@ -77,7 +77,7 @@ const Faq = () => {
             Sessions can take place at my therapy room in Three Bridges,
             Crawley, West Sussex, or via Zoom video call. Both options are
             equally effective. My therapy room is within easy reach of local bus
-            and train services. There is also parking facilities if you wish to
+            and train services. There are also parking facilities if you wish to
             drive.
           </p>
         </div>
