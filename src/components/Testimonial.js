@@ -10,7 +10,7 @@ const Testimonial = () => {
         <h3> Testimonials</h3>
         <Carousel
           autoPlay={true}
-          interval={15000}
+          interval={15}
           infiniteLoop={true}
           showThumbs={false}
           showStatus={false}

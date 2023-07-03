@@ -5,15 +5,11 @@ const Contact = () => {
       <article className="pageBody">
         <h2>Get In Touch</h2>
         <div className="homeText">
-          <form
-            action="https://submit-form.com/XcNrE74n"
-            method="post"
-            className="contactForm"
-          >
+          <form className="contactForm">
             <input
               type="hidden"
               name="_redirect"
-              value="http://www.gtw-hypnotherapy.co.uk/formSuccess"
+              value="https://www.gtw-hypnotherapy.co.uk/formSuccess"
             />
             <label htmlFor="name">Name:</label>
             <input type="name" id="name" name="name" required />
