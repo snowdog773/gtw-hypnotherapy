@@ -13,3 +13,5 @@ There are a whole bunch of errors in this website and I can't fix them. Can you 
 4. At the bottom of the homepage, the scrolling testimonials section is glitching out.
 
 5. The Get In Touch button on the homepage (jsut above testimonials) leads to a blank page.
+
+---
