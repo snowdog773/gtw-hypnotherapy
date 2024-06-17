@@ -14,7 +14,7 @@ const Nav = (props) => {
         What Is Hypnotherapy?
       </Link>
       <Link to="sessions" className="link" onClick={() => props.closeMenu()}>
-        Sessions & Prices
+        Sessions & Pricing
       </Link>
       <Link to="classes" className="link" onClick={() => props.closeMenu()}>
         Classes
@@ -25,6 +25,9 @@ const Nav = (props) => {
 
       <Link to="contact" className="link" onClick={() => props.closeMenu()}>
         Get In Touch
+      </Link>
+      <Link to="blog" className="link" onClick={() => props.closeMenu()}>
+        Blog
       </Link>
       <Link
         to="privacyPolicy"

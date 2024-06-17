@@ -81,6 +81,10 @@ const Faq = () => {
             drive.
           </p>
         </div>
+        <p className="fullWidth">
+          …The difference in our son’s confidence is utterly incredible. His
+          teacher has noticed big changes in his behaviour too…
+        </p>
       </article>
     </>
   );

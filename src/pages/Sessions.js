@@ -3,8 +3,100 @@ const Sessions = () => {
   return (
     <>
       <article className="pageBody">
-        <h2>Sessions & Prices </h2>
-        <div className="homeText">
+        <h2>Sessions & Pricing </h2>
+        {/* /////////////////////////CANVA/////////////////////////////////////////////// */}
+        <div className="canva-container">
+          <div className="canva-outer">
+            <div className="canva-wrapper">
+              <iframe
+                loading="lazy"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGDhHKubgo&#x2F;idtiroO5B9VQP3tyd8HLLA&#x2F;view?embed"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="canva-outer">
+            <div className="canva-wrapper">
+              <iframe
+                loading="lazy"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGDhBJZQBw&#x2F;-uSF75IAPw8KUCM9LdgsUg&#x2F;view?embed"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="canva-outer">
+            <div className="canva-wrapper">
+              <iframe
+                loading="lazy"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGDcpMhewM&#x2F;uSWkBnWPBEWwj8rCO4Px8Q&#x2F;view?embed"
+              ></iframe>
+            </div>
+          </div>
+          <p className="fullWidth">
+            …Georgina has been amazing in helping me with my phobia of sick & I
+            would highly recommend to anyone else who is considering overcoming
+            their anxieties or fears…
+          </p>
+          <div className="canva-outer">
+            <div className="canva-wrapper">
+              <iframe
+                loading="lazy"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGDcsRVcUw&#x2F;z4QCcGj8Pky2ZdwmidiiDA&#x2F;view?embed"
+              ></iframe>
+            </div>
+          </div>
+
+          <div className="canva-outer">
+            <div className="canva-wrapper">
+              <iframe
+                loading="lazy"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGDch7iYrI&#x2F;PaNKonSpPaqZm5qC6b5F9g&#x2F;view?embed"
+              ></iframe>
+            </div>
+          </div>
+          <div className="canva-outer">
+            <div className="canva-wrapper">
+              <iframe
+                loading="lazy"
+                src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGDcheLb_A&#x2F;_wH-0klLdxRBQfa44w6N5Q&#x2F;view?embed"
+              ></iframe>
+            </div>
+          </div>
+          <p className="fullWidth">
+            …Georgina is a fantastic therapist. So personable & easy to speak
+            to, you come away feeling so positive…
+          </p>
+        </div>
+        <div className="sessions-bottom-text">
+          <p>
+            Sessions are between 50-60 minutes and are best conducted on a
+            weekly basis to maintain momentum in your treatment.
+          </p>{" "}
+          <p>
+            {" "}
+            All sessions, including the initial consultation can be carried out
+            in person at my therapy room in Crawley, West Sussex or via Zoom
+            video call.
+          </p>{" "}
+          <p>
+            {" "}
+            Online sessions work just as effectively as face-to-face, and I have
+            worked successfully with clients from all around the globe. All that
+            I ask is that you have a good internet connection and can be in a
+            quiet, comfortable room where you won’t be disturbed.{" "}
+          </p>{" "}
+          <p>
+            {" "}
+            Please note that I never make promises on treatment timeframes as
+            the number of sessions required overall is completely unique to the
+            individual. Your commitment to the process is a must. I will help,
+            support and encourage you wholeheartedly every step of the way.
+            Alongside that, you should be consistent, open and willing for
+            change in order to gain the most from our time together.
+          </p>
+        </div>
+        {/* /////////////////////////////////////////////////////////////////////////////// */}
+        {/* <div className="homeText">
           <h3>Free, Initial Consultation</h3>
           <img
             src={require("../assets/tea2.jpg")}
@@ -84,8 +176,9 @@ const Sessions = () => {
             I ask is that you have a good internet connection and can be in a
             quiet, comfortable room where you won’t be disturbed
           </p>{" "}
-          <h3>Prices</h3>
         </div>
+
+        <h3>Prices</h3>
 
         <ul className="priceList">
           <li className="wide1">Initial Consultation (45 mins) </li>
@@ -100,7 +193,7 @@ const Sessions = () => {
 
           <li className="wide2"> Smoking/Vaping cessation session (2 hrs) </li>
           <li className="wide2"> £150</li>
-        </ul>
+        </ul> */}
       </article>
     </>
   );

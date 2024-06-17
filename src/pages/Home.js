@@ -96,7 +96,10 @@ const Home = () => {
             </li>
           </ul>
         </div>
-
+        <p className="fullWidth">
+          …the sessions have had a really positive impact on many areas of not
+          only my work life but also my personal life…
+        </p>
         <div className="areas2">
           <div className="areasPicture2">
             <div className="areasPictureSubLayer">

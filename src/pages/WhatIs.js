@@ -53,6 +53,10 @@ const WhatIs = () => {
             benefits on mental health and wellbeing.
           </p>
         </div>
+        <p className="fullWidth">
+          …I found ME again & I haven’t looked back. My confidence levels have
+          improved, stress bucket much lighter & anxiety gone…
+        </p>
       </article>
     </>
   );

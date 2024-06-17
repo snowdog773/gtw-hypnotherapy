@@ -68,16 +68,17 @@
 
 .fullWidth {
   display: block;
-  width: 100%;
+  width: 80%;
+
   background-color: #fff;
   text-align: center;
   font-style: italic;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 1.7rem;
   color: var(--corn);
 
   padding: 80px 10px;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .areas h3,
@@ -159,7 +160,7 @@ ul.flexSupport li.listEnd {
   .areas {
     flex-direction: row;
 
-    margin: 100px auto 200px;
+    margin: 100px auto 100px;
     /* box-shadow: 0 0 10px #444; */
   }
 
@@ -253,6 +254,26 @@ ul.noDecoration {
   margin: 0;
 }
 
+#bookingButton {
+  display: block;
+  margin: 100px auto;
+  font-size: 1.5rem;
+  padding: 5px 10px;
+  width: 200px;
+  text-align: center;
+  background-color: var(--corn);
+  color: white;
+  border-radius: 20px;
+}
+
+#bookingButton:hover {
+  opacity: 0.8;
+}
+
+.bookingLink {
+  text-decoration: none;
+}
+
 .contactLink {
   display: block;
   margin: 0 auto 100px;
@@ -289,6 +310,12 @@ ul.noDecoration {
   text-decoration: none;
 }
 
+.contact-cta {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
 .iframeWrapper {
   overflow: hidden;
   position: relative;
@@ -313,5 +340,151 @@ ul.noDecoration {
 @media (min-width: 700px) {
   .iframeWrapper {
     width: 60%;
+  }
+}
+/* ////////////////////////////////////////////////////CANVA STYLING//////////////////////////////////// */
+
+.canva-outer-classes {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.canva-outer-classes > .canva-wrapper {
+  width: 67.3%;
+  margin: auto;
+}
+
+.classes-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 900px) {
+  .classes-container {
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .canva-outer-classes {
+    width: 50%;
+    max-width: 400px;
+  }
+
+  .canva-outer-classes > .canva-wrapper-classes {
+    margin: 10px;
+  }
+
+  .classes-container > .homeText {
+    width: 45%;
+  }
+}
+
+.canva-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.canva-outer {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.canva-wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 141.5%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.canva-wrapper-classes {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 141.5%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.canva-wrapper > iframe,
+.canva-wrapper-classes > iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media (min-width: 900px) {
+  .canva-outer {
+    width: 30%;
+  }
+}
+
+.sessions-bottom-text {
+  width: 60%;
+  margin: auto;
+  text-align: justify;
+  font-size: 1.1rem;
+}
+
+.session-quote {
+  width: 100%;
+  text-align: center;
+  font-family: montserratBold;
+}
+
+.blogItem {
+  width: 80%;
+  margin: 80px auto;
+
+  font-size: 1rem;
+  line-height: 1.8rem;
+}
+.blogItem time {
+  text-align: left;
+}
+.blogItem h3 {
+  font-size: 1.6rem;
+}
+
+.blogItem a {
+  text-decoration: none;
+}
+
+.blogItem img {
+  width: 100%;
+  /* float: right; */
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.blogText {
+  text-align: justify;
+
+  margin: auto;
+}
+
+@media (min-width: 700px) {
+  .blogItem img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 55%;
   }
 }

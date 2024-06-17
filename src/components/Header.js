@@ -6,7 +6,7 @@ const Header = () => {
   const [showMenu, updateShowMenu] = useState(false);
 
   const menuSwitch = () => {
-    showMenu ? updateShowMenu(false) : updateShowMenu(false);
+    showMenu ? updateShowMenu(false) : updateShowMenu(true);
   };
 
   const closeMenu = () => {

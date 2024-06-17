@@ -11,6 +11,7 @@ import Faq from "../pages/Faq";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 import FormSuccess from "../pages/FormSuccess";
 import FormFail from "../pages/FormFail";
+import Blog from "../pages/Blog";
 const Body = () => {
   return (
     <>
@@ -18,13 +19,14 @@ const Body = () => {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-        <Route path="/session" element={<Sessions />} />
+        <Route path="/sessions" element={<Sessions />} />
         <Route path="/classes" element={<Classes />} />
         <Route path="/whatIs" element={<WhatIs />} />
         <Route path="/faq" element={<Faq />} />
         <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
         <Route path="/formSuccess" element={<FormSuccess />} />
         <Route path="/formFail" element={<FormFail />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </>
   );

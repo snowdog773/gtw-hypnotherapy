@@ -5,6 +5,13 @@ const Contact = () => {
       <article className="pageBody">
         <h2>Get In Touch</h2>
         <div className="homeText">
+          <a
+            className="bookingLink"
+            href="https://calendly.com/gtw-hypnotherapy/discovery-call"
+            target="_blank"
+          >
+            <div id="bookingButton">Book Now</div>
+          </a>
           <form className="contactForm">
             <input
               type="hidden"
@@ -54,6 +61,15 @@ const Contact = () => {
             </li>
           </ul>
         </div>
+        <p className="contact-cta">
+          Or to book your free Discovery Call{" "}
+          <a
+            href="https://calendly.com/gtw-hypnotherapy/discovery-call"
+            target="_blank"
+          >
+            CLICK HERE
+          </a>
+        </p>
       </article>
     </>
   );

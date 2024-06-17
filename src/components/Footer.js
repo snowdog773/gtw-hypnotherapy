@@ -31,7 +31,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer noopener"
         >
-          Copyright &copy; JP Web Development {new Date().getYear()}
+          Copyright &copy; JP Web Development {new Date().getFullYear()}
         </a>
       </p>
     </footer>

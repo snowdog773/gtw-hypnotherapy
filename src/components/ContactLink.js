@@ -4,7 +4,7 @@ const ContactLink = () => {
   return (
     <>
       <div className="contactLink">
-        <Link to="contacts">
+        <Link to="contact">
           <h4 className="contactLinkButton">GET IN TOUCH</h4>
         </Link>
         <p>
