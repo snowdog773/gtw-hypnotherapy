@@ -1,5 +1,27 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useNavigate } from "react-router-dom";
+import emailjs from "@emailjs/browser";
 const Contact = () => {
+  const form = useRef();
+  const navigate = useNavigate();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("service_nuspn6u", "template_ilhaly7", form.current, {
+        publicKey: "u_g8_7UwyRjyDpWIP",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+          navigate("/formSuccess");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+          navigate("/formFail");
+        }
+      );
+  };
   return (
     <>
       <article className="pageBody">
@@ -14,8 +36,10 @@ const Contact = () => {
           </a>
           <form
             className="contactForm"
-            action="https://submit-form.com/XcNrE74n"
-            method="post"
+            ref={form}
+            onSubmit={sendEmail}
+            // action="https://submit-form.com/XcNrE74n"
+            // method="post"
           >
             <input
               type="hidden"

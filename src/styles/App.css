@@ -255,3 +255,24 @@ h3.contactName {
   height: 30px;
   margin: 25px;
 }
+
+.price-container {
+  margin: 100px auto 30px;
+  font-size: 1rem;
+}
+
+@media (min-width: 800px) {
+  .price-container {
+    font-size: 1.2rem;
+    width: 60%;
+  }
+}
+.price-container td {
+  padding: 20px 0;
+  /* max-width: 150px; */
+  /* text-align: justify; */
+}
+
+.price-container .price {
+  text-align: center;
+}
