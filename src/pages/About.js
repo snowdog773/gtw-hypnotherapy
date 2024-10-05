@@ -51,7 +51,14 @@ const About = () => {
           <p>
             I would love for the opportunity to make hypnotherapy accessible for
             you, so please don’t hesitate to contact me if you would like to
-            book in for your free, initial consultation.
+            book in for your free{" "}
+            <a
+              href="https://calendly.com/gtw-hypnotherapy/discovery-call"
+              target="_blank"
+            >
+              discovery call
+            </a>
+            .
           </p>
           <p className="fullWidthQuote">
             {" "}

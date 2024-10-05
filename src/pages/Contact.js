@@ -12,7 +12,11 @@ const Contact = () => {
           >
             <div id="bookingButton">Book Now</div>
           </a>
-          <form className="contactForm">
+          <form
+            className="contactForm"
+            action="https://submit-form.com/XcNrE74n"
+            method="post"
+          >
             <input
               type="hidden"
               name="_redirect"
@@ -61,7 +65,7 @@ const Contact = () => {
             </li>
           </ul>
         </div>
-        <p className="contact-cta">
+        {/* <p className="contact-cta">
           Or to book your free Discovery Call{" "}
           <a
             href="https://calendly.com/gtw-hypnotherapy/discovery-call"
@@ -69,7 +73,7 @@ const Contact = () => {
           >
             CLICK HERE
           </a>
-        </p>
+        </p> */}
       </article>
     </>
   );
